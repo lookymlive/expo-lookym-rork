@@ -3,8 +3,9 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 
 export default function BtnLoginGoogle() {
   return (
-    <Pressable style={styles.container}>
-      <Text style={styles.text}>Login with Google</Text>
+    <Pressable
+     style={styles.btn}>
+      <Text style={{textAlign: "center", color: "white"}}>Login with Google</Text>
     </Pressable>
   );
 }
